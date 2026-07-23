@@ -29,7 +29,7 @@ An end-to-end Automatic Number Plate Recognition (ANPR) system built using **YOL
 Create and activate a virtual environment:
    ```
    python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate```
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
 Install dependencies:
    ```
    pip install ultralytics opencv-python paddleocr paddlepaddle numpy roboflow```
