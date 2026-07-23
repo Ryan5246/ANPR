@@ -28,22 +28,25 @@ An end-to-end Automatic Number Plate Recognition (ANPR) system built using **YOL
    cd ANPR
 Create and activate a virtual environment:
 
-Bash
+
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 Install dependencies:
 
-Bash
+
 pip install ultralytics opencv-python paddleocr paddlepaddle numpy roboflow
 Run the detection pipeline:
 
-Bash
 python main.py
+
 🎮 UI Controls
 Play / Pause Trackbar: Toggle between 1 (Play) and 0 (Pause).
 
+
 Timeline Scrubbing: Slide the Timeline bar to jump to any frame in the video.
 
+
 Quit: Press d while active on the video window to terminate the program.
+
 
 Created by Ryan Priyank
