@@ -27,17 +27,17 @@ An end-to-end Automatic Number Plate Recognition (ANPR) system built using **YOL
    git clone [https://github.com/Ryan5246/ANPR.git](https://github.com/Ryan5246/ANPR.git)
    cd ANPR
 Create and activate a virtual environment:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
 Install dependencies:
+   ```bash
+   pip install ultralytics opencv-python paddleocr paddlepaddle numpy roboflow
 
-
-pip install ultralytics opencv-python paddleocr paddlepaddle numpy roboflow
 Run the detection pipeline:
-
-python main.py
+   ```bash
+   python main.py
 
 🎮 UI Controls
 Play / Pause Trackbar: Toggle between 1 (Play) and 0 (Pause).
