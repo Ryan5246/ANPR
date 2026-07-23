@@ -42,6 +42,7 @@ Run the detection pipeline:
    python main.py
    ```
 
+
 🎮 UI Controls
 Play / Pause Trackbar: Toggle between 1 (Play) and 0 (Pause).
 
@@ -50,6 +51,9 @@ Timeline Scrubbing: Slide the Timeline bar to jump to any frame in the video.
 
 
 Quit: Press d while active on the video window to terminate the program.
+
+
+
 
 
 Created by Ryan Priyank
