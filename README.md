@@ -30,8 +30,8 @@ Create and activate a virtual environment:
    ```
    python -m venv venv
    source venv/bin/activate  # On Windows: venv\Scripts\activate
-Install dependencies:
    ```
+Install dependencies:
    pip install ultralytics opencv-python paddleocr paddlepaddle numpy roboflow```
 Run the detection pipeline:
   ``` 
