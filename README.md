@@ -23,6 +23,7 @@ An end-to-end Automatic Number Plate Recognition (ANPR) system built using **YOL
 ## 🚀 Quickstart & Usage
 
 1. **Clone the repository:**
+
    ```
    git clone [https://github.com/Ryan5246/ANPR.git](https://github.com/Ryan5246/ANPR.git)
    cd ANPR
